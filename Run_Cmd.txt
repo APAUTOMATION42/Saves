@@ -1,6 +1,9 @@
 git push -f origin master
 git push --force origin master
 //Add code command OK
+
+git config --global user.email "dhdt9a@example.com"
+git config --global user.name "APAUTOMATION42"
 git fetch
 git pull origin master
 git push --set-upstream origin master
