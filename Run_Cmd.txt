@@ -1,0 +1,22 @@
+git push -f origin master
+git push --force origin master
+//Add code command OK
+git fetch
+git pull origin master
+git push --set-upstream origin master
+git remote add origin
+//---------------------------
+git pull git@github.com:duchung8739/vci_tia.git master
+
+git pull --allow-unrelated-histories origin master
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/APAUTOMATION42/SyncTIA.git
+git push -u origin main
+
+
+git config --global user.email "dhdt9a@example.com"
+git config --global user.name "APAUTOMATION42"
